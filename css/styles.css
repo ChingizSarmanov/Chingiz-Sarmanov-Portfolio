@@ -1,0 +1,197 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    background-color: #000;
+}
+
+h1 {
+    cursor: pointer;
+    font-size: 7vh;
+    font-weight: 900;
+}
+
+ul {}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.name {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.info {
+    padding-top: 30px;
+    font-size: 1em;
+    font-family: "Open sans", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #999;
+}
+
+.course-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow-y: auto;
+    /* добавляем полосу прокрутки по вертикали при необходимости */
+    padding: 20px;
+}
+
+.container__jopa {
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* добавляем полосу прокрутки по вертикали при необходимости */
+    padding: 20px;
+}
+
+.course-link:hover {
+    background-color: #0056b3;
+}
+
+.links {
+    margin-top: 0.75em;
+    text-align: center;
+}
+
+.links .linkedin,
+.links .github,
+.links .telegram,
+.links .telegram-channel,
+.links .youtube,
+.links .facebook,
+.links .twitter,
+.links .instagram,
+.links .tiktok,
+.links .udemy {
+    display: inline-block;
+    margin: 10px;
+    -webkit-transition: 1s;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.links .fa-linkedin,
+.links .fa-github,
+.links .fa-telegram,
+.links .fa-telegram,
+.links .fa-youtube,
+.links .fa-facebook,
+.links .fa-twitter,
+.links .fa-instagram,
+.links .fa-tiktok,
+.links .fa-u {
+    padding: 10px;
+    height: 48px;
+    width: 54px;
+    text-align: center;
+    color: white;
+}
+
+.links .linkedin:hover,
+.links .github:hover,
+.links .telegram:hover,
+.links .telegram-channel:hover,
+.links .youtube:hover,
+.links .facebook:hover,
+.links .twitter:hover,
+.links .instagram:hover,
+.links .tiktok:hover,
+.links .udemy:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.links .linkedin {
+    background-color: #0077B5;
+}
+
+.links .github {
+    background-color: #161b22;
+}
+
+.links .telegram {
+    background-color: #229ED9;
+}
+
+.links .telegram-channel {
+    background-color: #ff2e7e;
+}
+
+.links .youtube {
+    background-color: #E62117;
+}
+
+.links .facebook {
+    background-color: #3b5998;
+}
+
+.links .twitter {
+    background-color: #5EA9DD;
+}
+
+.links .instagram {
+    background: linear-gradient(60deg, #F9C556, #F97621, #EA484C, #D72F78, #A93AB5, #5B62D1);
+}
+
+.links .tiktok {
+    background-color: #000;
+}
+
+.links .udemy {
+    background-color: #a435f0;
+}
+
+
+
+button {
+    padding: 5px 10px; /* Уменьшены внутренние отступы */
+    font-size: 14px; /* Уменьшен размер шрифта */
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Добавлена рамка */
+    background-color: #fff; /* Фон белый */
+    border-radius: 3px; /* Скругление углов */
+    width: 100px; /* Фиксированная ширина */
+    text-align: center; /* Центрирование текста */
+    display: flex;
+    justify-content: center;
+}
+
